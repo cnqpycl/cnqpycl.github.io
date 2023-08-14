@@ -1,0 +1,20 @@
+<html>
+    <head>
+        <script type="text/javascript" src="imagelist.json"></script>
+        <title>random-minecraft</title>
+        
+        <style>
+            img
+            {
+                width: 100%;
+                height: auto;
+            }
+        </style>
+    </head>
+    <body>
+        <script type="text/javascript">
+            var r=Math.floor(Math.random()*images.length)
+            document.write("<img src="+images[r]+">")
+        </script>
+    </body>
+</html>
